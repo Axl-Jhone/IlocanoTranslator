@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ilocano Flashcards</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Ilocano Survival Flashcards</h1>
+    <div class="tabs">
+      <button class="tab active" onclick="filterCategory('greetings')">
+        Greetings
+      </button>
+      <button class="tab" onclick="filterCategory('transport')">
+        For Transport
+      </button>
+      <button class="tab" onclick="filterCategory('honorifics')">
+        Honorifics
+      </button>
+      <button class="tab" onclick="filterCategory('numbers')">Numbers</button>
+      <button class="tab" onclick="filterCategory('expressions')">
+        Expressions
+      </button>
+    </div>
+
+    <div id="flashcardContainer" class="grid"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
